@@ -1,0 +1,46 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mlgljs"},
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
+    },
+    "rapid-transit-lines": {
+      "type": "geojson",
+      "data": "https://babooneatbanana.github.io/babooneatbanana-lab1-web/rapid-transit-lines.geojson"
+    }
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "bg",
+      "type": "background",
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(189, 181, 181, 1)"}
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(89, 175, 194, 1)", "fill-opacity": 0.8}
+    },
+    {
+      "id": "country",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place"
+    },
+    {
+      "id": "rapid-transit",
+      "type": "line",
+      "source": "rapid-transit-lines",
+      "paint": {"line-color": "rgba(89, 17, 230, 1)"}
+    }
+  ],
+  "id": "bnetzvt"
+}
