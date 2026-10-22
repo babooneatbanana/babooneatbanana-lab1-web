@@ -16,6 +16,25 @@ style: 'https://babooneatbanana.github.io/babooneatbanana-lab1-web/2nd_osm_liber
 center: [-123.11, 49.25],    // longitude, latitude
 zoom: 11
 });
+  <!-- The Legend Overlay Container -->
+  <div class="map-legend">
+    <h4>Legend</h4>
+    
+    <div class="public-schools">
+      <span class="legend-color" style="background-color: #98539B;"></span>
+      <span class="legend-label">Public Schools</span>
+    </div>
+    
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #ffa500;"></span>
+      <span class="legend-label">Moderate Traffic</span>
+    </div>
+    
+    <div class="legend-item">
+      <span class="legend-color" style="background-color: #2ecc71;"></span>
+      <span class="legend-label">Low Traffic</span>
+    </div>
+  </div>
 map.addControl(new maplibregl.NavigationControl());
 </script>
 </body>
