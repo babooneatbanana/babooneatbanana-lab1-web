@@ -3,12 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>Bikeways and Schools</title>
-<h4> 
-  Bikeway safety levels (protected, <br />
-  local street, painted, and shared) <br />
-  and public school locations in <br /> 
-  Vancouver
-</h4>
 </head>
 <body>
 <link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet">
@@ -16,6 +10,12 @@
 <style> body { margin: 0; } h4{z-index: 1} #map { position: absolute; inset: 0; } 
 </style>
 <div id="map"></div>
+<h4> 
+  Bikeway safety levels (protected, <br />
+  local street, painted, and shared) <br />
+  and public school locations in <br /> 
+  Vancouver
+</h4>
 <script>
 const map = new maplibregl.Map({
 container: 'map',
