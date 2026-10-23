@@ -27,6 +27,7 @@ map.on('click', 'public-schools', onEachSchool);
 function onEachSchool(e) {
 const School = e.features[0].properties;
 const popup = new maplibregl.Popup();
+popup.setLngLat(e.lngLat)
 popup.setText(School.school_name);
 popup.addTo(map);
 }
