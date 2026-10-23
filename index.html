@@ -5,14 +5,23 @@
 <title>Bikeways and Schools</title>
 </head>
 <body>
-<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-<style> body { margin: 0; } #map { position: absolute; inset: 0; } 
-  <h4>Bikeway safety levels (protected, <br />
+<h4>Bikeway safety levels (protected, <br />
   local street, painted, and shared) <br />
   and public school locations in <br /> 
   Vancouver
   </h4>
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<style> body { margin: 0; } #map { position: absolute; inset: 0; }   h4 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    padding: 12px;
+    width: fit-content;
+    background: white;
+    color: black;
+    border-radius: 5px;
+  }
 </style>
 <div id="map"></div>
 <script>
