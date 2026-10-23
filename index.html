@@ -32,13 +32,6 @@ const popup = new maplibregl.Popup();
 popup.setText(School.school_name);
 popup.addTo(map);
 }
-map.addControl(new maplibregl.NavigationControl());
-map.on('load', () => {
-  console.log('Layer:', map.getLayer('public-schools'));
-  console.log('Visibility:', map.getLayoutProperty(
-    'public-schools', 'visibility'
-  ));
-});
 </script>
 </body>
 </html>
