@@ -23,7 +23,7 @@ style: 'https://babooneatbanana.github.io/babooneatbanana-lab1-web/5th_osm_liber
 center: [-123.11, 49.25],    // longitude, latitude
 zoom: 11
 });
-map.on('click', 'school_name', onEachSchool);
+map.on('click', 'public-schools', onEachSchool);
 function onEachSchool(e) {
 const School = e.features[0].properties;
 const popup = new maplibregl.Popup();
