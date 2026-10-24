@@ -31,10 +31,14 @@ popup.setLngLat(e.lngLat)
 popup.setText(School.school_name);
 popup.addTo(map);
 }
-const schoolRadius = {
-'circle-radius': ['interpolate', ['linear'], ['zoom'],
-11, 4, 17, 8]
-};
+map.setPaintProperty(
+  'public-schools',
+  'circle-radius',
+  ['interpolate', ['linear'], ['zoom'],
+    11, 4,
+    17, 8
+  ]
+);
 </script>
 </body>
 </html>
