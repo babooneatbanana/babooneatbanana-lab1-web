@@ -13,3 +13,7 @@ The bikeways were assigned colors red, orange, yellow, and green indicating leas
 A small but informative title was added on the top left-hand corner of the screen to help inform the user about what they were looking at. 
 
 The map could have been improved in a few ways. Firstly, it does not clearly communicate which schools are near what type of cycling infrastructure. Since the ultimate goal of this assignment was to illustrate spatial interaction between data/phenomenon, schools could be classified and symbolized on the map based on their closest type of bikeway. For example, schools near protected bike lanes could be given a check mark and those far from protect lanes could have an 'x' filled in the middle. This way it would be clear which schools lack adequate cycling infrastructure and prompt the user to further consider the connections between public schools and cycling infrastructure. However, I still think I provided the basic information and layout necessary for a user to consider the connection between these two datas.
+
+Image showing an area of interest
+<img width="718" height="591" alt="image" src="https://github.com/user-attachments/assets/b451a51d-905e-4e8a-89ca-70b48daf893e" />
+This area shows how Point Grey Secondary School has adequate cycling infrastructure around it, with protect bike lanes and local streets. It also allows us to see that the protected bike lane keeps riders away form the secondary tertiary road of Arbutus Street which is dangerous for people to ride on. 
