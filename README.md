@@ -1,4 +1,4 @@
-Link to the map: 
+Link to the map: https://babooneatbanana.github.io/babooneatbanana-lab1-web/index.html
 
 Data: 
 The data that I present in my map include the location of all public schools in the City of Vancouver and City of Vancouver bikeways. Bikeway data is classified into four categories: 1) protected bikeways, 2) local street bikeways, 3) painted bikeways, and 4) shared bikeways. All data was available in GeoJSON format from the Vancouver Open Data Portal
