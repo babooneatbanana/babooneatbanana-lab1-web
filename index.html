@@ -23,24 +23,13 @@ style: 'https://babooneatbanana.github.io/babooneatbanana-lab1-web/5th_osm_liber
 center: [-123.11, 49.25],    // longitude, latitude
 zoom: 11
 });
-map.on('click', 'public-schools', onEachSchool); {
+map.on('click', 'public-schools', onEachSchool);
 function onEachSchool(e) {
 const School = e.features[0].properties;
 const popup = new maplibregl.Popup();
 popup.setLngLat(e.lngLat)
 popup.setText(School.school_name);
 popup.addTo(map);
-}
-map.addLayer({
-    id: 'circle-radius',
-    type: 'circle',
-    source: 'PublicSchools',
-    paint: Schoolmarker
-  });
-}
-const Schoolmarker = {
-'circle-radius': ['interpolate', ['linear'], ['zoom'],
-11, 2, 17, 6],
 }
 </script>
 </body>
