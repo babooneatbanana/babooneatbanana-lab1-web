@@ -1,4 +1,5 @@
 Link to the map: https://babooneatbanana.github.io/babooneatbanana-lab1-web/index.html
+
 Link to Maputnik style: https://babooneatbanana.github.io/babooneatbanana-lab1-web/5th_osm_liberty_style.json
 
 Data: 
